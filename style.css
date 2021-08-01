@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Homemade+Apple&family=Pacifico&family=Permanent+Marker&family=Roboto+Slab&family=Vibur&display=swap');
+
+
+body {
+    margin: 3% 3% 3% 3%;
+  }
+
+.resume {
+    display: grid;
+    font-family: Homemade Apple;
+    font-weight: bolder;
+    background-color: #fcf2f0;
+    color: #34231b;
+
+    
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 2fr 3fr 3fr;
+
+    grid-template-areas: 
+    "header header header"
+    "body body side"
+    "body body side";
+}
+
+.resume-top{
+    background-color: #a17765;
+    grid-area: header;
+    display:grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1fr;
+    color:#fcf2f0;
+    
+
+}
+
+img{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color: #fcf2f0;
+}
+
+.topsub{
+
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-left{
+    grid-area: body;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    padding-left: 40px;
+    
+}
+
+.resume-right{
+    grid-area: side;
+    background-color: #fffefe;
+    padding-left: 30px;
+    padding-right: 10px;
+    display:grid;
+    grid-template-rows: 1.5fr 1fr;
+    
+}
+
+.edu{
+    grid-area: 1/1/2/3;
+}
+
+.achieve{
+    grid-area: 2/1/3/2;
+}
+
+.hobbies{
+    grid-area: 2/2/3/3;
+    padding-left: 0%;
+}
+
+.contact{
+    padding-top: 10px;
+}
+
+.skill{
+    grid-area: 2/1/2/3;
+}
+
+h4{
+    font-family: Roboto Slab;
+    font-weight: bolder;
+    color: #34231b;
+}
+
+.subcollege{
+    font-family:sans-serif;
+}   
+.sub12 { 
+    font-family:sans-serif;
+}
+
+.sub10{
+    font-family:sans-serif;
+}
+.achievesub{
+    font-family:sans-serif;
+  
+}
+.hobbiessub{
+    font-family:sans-serif;
+   
+} 
+.phonesub{
+    font-family:sans-serif;
+    
+}
+.addresssub{
+    font-family:sans-serif;
+  
+}
+.emailsub{
+    font-family:sans-serif;
+    
+}
+.skillsub{
+    font-family:sans-serif;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .resume{
+        grid-template-areas: 
+        "header"
+        "body"
+        "side";
+        grid-template-columns: 100%;
+        
+    }
+    .resume-top{
+        display: flex;
+    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .resume-left{
+        display: flex;
+    
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 5% ;
+    }
+    .resume-right{
+        display: flex;
+    
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: #fcf2f0;
+        padding-left: 5%;
+    }
+    
+}
