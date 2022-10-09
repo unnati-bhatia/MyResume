@@ -16,7 +16,7 @@ Resume website build using HTML5 and CSS3.
 
 
 ## 📌 Sneak Peek of Main Page:
-![mockup720](https://github.com/ShivamAgarwal-code/Portfolio-Shivam-Agarwal/blob/008470738d84db3309b892d936998fe371f8928f/assests/images/ss.jpeg)
+![mockup720](https://github.com/ShivamAgarwal-code/resume/blob/new/snapshot.jpeg)
 
 
 
